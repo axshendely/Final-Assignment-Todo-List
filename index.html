@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To DO_List</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script defer src="scripts/api-client.js"></script>
+    <script defer src="scripts/scrips.js"></script>
+</head>
+<body>
+<h1>TO DO LIST</h1>
+<label for="input_textbox"></label>
+<div id="ToDO">
+    <input type="text" placeholder="input task to add to tasklist" id="input_textbox">
+    <div class="buttons">
+        <button type="submit" id="add_task_button">Add Task</button>
+        <button type="submit" onclick="remove_all()" id="remove_all_task_button">Remove All</button>
+    </div>
+</div>
+<ul id="Task_listCatalog">
+</ul>
+</body>
+</html>
